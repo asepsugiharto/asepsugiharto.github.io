@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 100%) {
   #hero {
     background-attachment: fixed;
   }
@@ -739,11 +739,11 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 200px;
+  padding-bottom: 100%;
 }
 
 .contact .info {
-  padding: 30px;
+  padding: 50pxx;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1059,7 +1059,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 20%;
   z-index: 9999;
   background: #040b14;
 }
